@@ -1,8 +1,4 @@
-# Generative Semantic Communication: A Diffusion-Based Framework for 6G
-
 This repository contains the implementation of a **Generative Semantic Communication** system. This framework addresses the challenges of next-generation 6G networks by shifting from traditional "bit-level" transmission to "semantic-level" transmission.
-
-Instead of transmitting raw pixels, this system transmits compact **semantic segmentation maps**. The receiver then utilizes a **Denoising Diffusion Probabilistic Model (DDPM)**, guided by the received semantics, to hallucinate and reconstruct a photorealistic image.
 
 > **Attribution:** This project is an implementation and adaptation of the paper **"Generative Semantic Communication: Diffusion Models for Semantic Image Transmission"** by Grassucci et al. (2023). It builds upon the [guided-diffusion](https://github.com/openai/guided-diffusion) codebase by OpenAI.
 
@@ -24,7 +20,6 @@ The framework consists of three logical blocks:
 ## 🛠️ Installation
 
 ### Prerequisites
-* Linux or macOS
 * Python 3.8+
 * PyTorch 1.12+ (with CUDA support recommended)
 
